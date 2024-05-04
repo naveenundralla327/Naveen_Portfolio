@@ -1,0 +1,260 @@
+
+/* Navbar */
+@media (max-width: 992px) {
+    .nav-list{
+      display:none;
+    }
+    .nav-bar{
+      align-items: none;
+      justify-content: space-between;
+    }
+    .sidenavbar-show-items{
+      display: flex;
+    }
+  }
+
+
+/*side bar-icon */
+@media (min-width:992px){
+    .sidenavbar-show-items{
+      display: none;
+    }
+    .sidebar-list-items{
+      display: none;
+    }
+  }
+
+  /* Homs Section*/
+@media (max-width:992px) {
+    .home-container{
+      flex-direction: column;
+      padding:50px;
+      height:110vh;
+      background-size: cover;
+    
+    }
+    
+    .name-container{
+      margin-bottom: 180px;
+      width:100% !important;
+      height:230px;
+    }
+    .name-container-sub h1{
+      font-size: 35px;
+      /* width:100%; */
+    }
+    .image-container{
+      margin-right: 90px;
+    }
+    .h-image{
+        margin-left:80px;
+        height:260px;
+        width:370px;
+       
+      }
+      
+    .h-image img {
+        height: 260px;
+      }
+      
+    
+  }
+
+/*About Section */
+@media (max-width:992px) {
+    #About{
+      height: 107vh;
+    }
+    .about-container{
+      flex-direction: column;
+      padding:20px;
+      background-size: cover;
+      height: 150vh;
+
+    }
+    .about-description,.image-container-2{
+      width:100%;
+    }
+    .about-description{
+      margin-left: 10px;
+      width:500px;
+    
+    }
+    .about-description p{
+        font-size: 20px !important;
+      }
+      .resume-btn{
+        margin-top: 10px;
+      }
+    .image-container-2{
+        margin-left: 30px;
+        margin-top: 0px;
+        margin-bottom: 35px;
+      }
+      .h-image-2{
+          margin-left:80px;
+          height:260px;
+          width:300px;
+         
+        }
+        
+      .h-image-2 img {
+          height: 260px;
+        }
+        
+    
+  }
+  /*----------Skills Section ----------------------*/
+  @media (max-width:992px) {
+    .skills-section{
+      padding:15px;
+    }
+    .skills-list-container{
+      padding: 10px;
+    }
+    .frontend,.backend{
+        width:85%;
+    }
+    .frontend,.backend .heading{
+    font-size: 16px;
+    }
+    
+  }
+
+ /*----------Education Section ----------------------*/
+ @media (min-width:568px) and (max-width:992px) {
+  #Education{
+    height: 220vh;
+  }
+  .college-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .clg-img{
+    width:100%;
+    padding-right: 0px;
+    height: 90%;
+    
+  }
+  .college-details{
+    padding:15px;
+    width:100%;
+    }
+  .college-details h1{
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .college-details h3{
+    padding-bottom: 5px;
+    font-size: 18px;
+    
+  }
+  .college-details p{
+    font-size: 15px;
+    padding-bottom: 3px;
+  }
+  
+}
+
+/*---------------------------------------Projects Section --------------------------------------------*/
+@media (max-width:992px) {
+  #Projects {
+      height: 325vh;
+  }
+
+  .projects-categories {
+      width: 95%;
+  }
+}
+
+
+/*---------------------------------------certification Section --------------------------------------------*/
+@media (max-width:992px) {
+  .each-certificate {
+      background-color: #f2f4f8;
+      border-radius: 10px;
+      width: 260px;
+      margin: 15px;
+      transition: transform 0.4s ease;
+      transform: translateZ(0);
+  }
+}
+
+/*---------------------------------------contact Section --------------------------------------------*/
+@media (max-width:992px) {
+  #Contact {
+      height: 150vh;
+
+  }
+
+  .getin-touch {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      width: 90%;
+      height: 90%;
+      overflow: hidden;
+  }
+
+  .getin-touch img {
+      width: 90%;
+      margin-right: 0px;
+  }
+
+  .getin-touch div div {
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+      padding: 7px;
+      width: 90%;
+
+  }
+
+  .getin-touch div div i {
+      padding-top: 5px;
+      padding-right: 5px;
+  }
+}
+
+/*---------------------------------------footer Section --------------------------------------------*/
+@media (max-width:992px) {
+  .footer-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+  }
+
+  .footer-description {
+      width: 80%;
+      margin: 15px;
+      margin-left: 0px;
+  }
+
+
+  .quick-links {
+      padding-left: 0px;
+      width: 30%;
+      margin: 0px;
+      margin-bottom: 20px;
+  }
+
+
+  .contact-info {
+      width: 95%;
+      margin: 0px;
+  }
+
+  .contact-info div:nth-child(2),
+  .contact-info div:nth-child(3) {
+      display: flex;
+      flex-direction: row;
+      margin-left: 30px;
+  }
+
+  .horizontal-line {
+      width: 100%;
+  }
+}
